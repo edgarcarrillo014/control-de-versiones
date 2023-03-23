@@ -1,0 +1,16 @@
+:root{
+    --cadet-gray: #94A6A6ff;
+    --outer-space: #3F4D4Dff;
+    --tangerine: #E67F25ff;
+    --picton-blue: #56A9E2ff;
+    --rose-quartz: #988D9Eff;
+    --Roboto : 'Roboto' , sans-serif;
+}
+body{
+    font-family: var(--Roboto);
+    background-color: var(--outer-space);
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}  
+ 
