@@ -1,0 +1,91 @@
+
+.seccion_presentacion{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-direction: column;
+    margin-left: 9%;
+}
+
+
+.contenedor__sobre-mi{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10%;
+} 
+
+.sobre-mi__presentacion{
+    background-image: linear-gradient(90deg, #3BF686, #4CA9FF);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 56px;
+}
+
+.contenedor__biografia{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.contenedor-imagen{
+    width: 40%;
+    height:200px;
+    border-radius:50%;
+    border: solid 3px white;
+    overflow:hidden;
+    border-color: #3BF686;
+    background: #3A3636;
+
+}
+.imagen-avatar{
+    width: 125px;
+    margin: 0 auto; 
+    padding: 35px;
+}
+.contenedor-de-la-biografia{
+    margin-left: 1%;
+    width: auto;
+}
+.encabezado{
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+.biografia{
+    width: 75%;
+    font-family: 'Inter';
+    color: var(--biografia);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: normal;
+    flex-direction: column;
+    margin: 5px;
+    margin-bottom: auto;
+}
+.parrafo-sobre-mi{
+    color: white;
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 35px;
+}
+.contenedor__iconos-sobre-mi{
+    width: auto;
+}
+.iconos-sobre-mi{
+    width: 38px;
+}

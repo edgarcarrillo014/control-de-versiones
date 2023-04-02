@@ -7,31 +7,81 @@
     <title>Portafolio by Edgar</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,300&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/head.css">
-    <link rel="stylesheet" href="./css/container.css">
-    <link rel="stylesheet" href="./css/sobre-mi.css">
+    <link rel="stylesheet" href="./css/seccion-presentacion.css">
     <link rel="stylesheet" href="./css/proyectos.css">
     <link rel="stylesheet" href="./css/habilidades.css">
+    <link rel="stylesheet" href="./css/lo-que-hago.css">
     <link rel="stylesheet" href="./css/footer.css">
 </head>
 <body>
     <header class="head-container">
         <nav class="head__menu">
             <ul class="head__lista">
+                <p class="nombre">Edgar</p>
                 <li class="item__lista" id="outer">Inicio</li>
                 <li class="item__lista" id="picton">Proyectos</li>
                 <li class="item__lista" id="rose">Experiencia</li>
                 <li class="item__lista" id="tangerine">Contacto</li>
             </ul>
+            <div class="linea"></div>
         </nav>
-        <h1 class="sobre-mi__titulo">Hola, soy un Desarrollador Front End</h1>
     </header>
-<main>
-    
-    
+    <main>
+        <section class="seccion_presentacion">
+            <div class="contenedor__sobre-mi">
+                <h1 class="sobre-mi__presentacion">Hi, I'm Edgar, a human being with a certain ability to learn and work as a team, this is me.</h1>
+            </div>
+            <div class="contenedor__biografia">
+                <div class="contenedor-imagen">
+                    <img class="imagen-avatar" src="./assets/avatar.png" alt="mi avatar">
+                </div>
+                <div class="contenedor-de-la-biografia">
+                    <h3 class= "encabezado" >Biography</h3>
+                    <p  class= "biografia" >Hello!, I'll tell you a little about myself, I studied programming at school which was quite boring since I didn't have teachers with extensive knowledge and I ended up copying everything I could, the truth is that I didn't quite like programming.
+                        Some time later I started programming the web and that's where I started to like it.
+                        I decided to leave the university because, just like at school, I didn't have quality educators and many times we stopped programming to do other types of activities..</p>
+                </div>
+                <div class="contenedor">
+                    <p class="parrafo-sobre-mi">Lets connect</p>
+                    <div class="contenedor__iconos-sobre-mi">
+                        <img class="iconos-sobre-mi" src="./assets/facebook.svg" alt="">
+                        <img class="iconos-sobre-mi" src="./assets/Twitter.svg" alt="">
+                        <img class="iconos-sobre-mi" src="./assets/instagram.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="seccion__lo-que-hago">
+            <div class="contenedor__lo-que-hago">   
+                <h3 class="titulo">What I do</h3>
+                <p>Build and maintain websites, frontend dev also have a mentorship called MOFON. My motto is Beauty and function in equal measure as priority.</p>
+            </div>
+            <div class="tarjetas-lo-que-hago" >
+                <div class="circulo__imagen">
+                    <img class="icon__studies" src="./assets/designer-web.svg" alt="icono_desarrollador_Web">
+                </div>
+                <p class="titulo__estudio" >Web Development</p>
+                <p class="descripcion_estudio" >I have contributed to projects such as the creation of web pages.</p>
+            </div>
+            <div class="tarjetas-lo-que-hago" >
+                <div class="circulo__imagen">
+                    <img class= "icon__studies" src="/assets/student.svg" alt="icono_de_estudios">
+                </div>
+                <p class="titulo__estudio" >Student</p>
+                <p class="descripcion_estudio">One of my achievements that I had was graduating from Alura's bootcamp</p>
+            </div>
+
+        </section>
+        <section class="">
+            <div>
+
+            </div>
+        </section>
     <!-- <p class="titulo__seccion">Proyectos</p>    
     <section class="proyectos container">       
             <div class="contenedor__proyecto">
@@ -53,8 +103,7 @@
                 <p class="titulo__proyectos">BlackJakc</p>
             </div>
         </div>
-    </section>
-    
+    </section>  
     <p class="titulo__seccion">Habilidades</p>
     <section class="habilidades__seccion ">
             <ul class="habilidades__contenedor">

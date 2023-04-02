@@ -1,66 +1,37 @@
 .head-container{
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    align-items: center;
 }
-
 .head__menu{
-    display: flex;
     width: 100%;
-    height: auto;
-    background-color: var(--cadet-gray);
-    font-weight: 400;
-    font-size: 26px;
 }
 .head__lista{
     display: flex;
-    margin-block: 10px;
     width: 100%;
-    padding: 10px;
-    justify-content: end;
     align-items: center;
-    color: antiquewhite;
+    justify-content: center;
+    margin-top: 15px;
+}
+.nombre{
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    width: 55%;
+    font-weight: 700;
 }
 .item__lista{
- margin: 10px;
- text-align: center;
- width: 150px;
+    margin: 20px;
+    color: var(--menu);
+    font-size: 26px;
+    font-weight:lighter;
 }
-#tangerine{
-    margin: 10px;
-    text-align: center;
-    border: solid;
-    background-color: var(--tangerine);
-    border-color: var(--tangerine);;
-    border-width: 4px;
-    border-radius: 20px;
+.item__lista:hover{
+    color: white;
+    cursor: pointer;
 }
-#rose{
-    margin: 10px;
-    text-align: center;
-    border: solid;
-    background-color: var(--rose-quartz);
-    border-color: var(--rose-quartz);;
-    border-width: 4px;
-    border-radius: 20px;
-}
-#picton{
-    margin: 10px;
-    text-align: center;
-    border: solid;
-    background-color: var(--picton-blue);
-    border-width: 4px;
-    border-radius: 20px;
-    border-color: var(--picton-blue);;
-}
-#outer{
-    margin: 10px;
-    text-align: center;
-    border: solid;
-    background-color: var(--outer-space);
-    border-width: 4px;
-    border-radius: 22px;
-    border-color: var(--outer-space);
+.linea{
+    border-top: 1px solid #4D4D4D;
+    height: 2px;
+    max-width: 82%;
+    padding: 0;
+    margin: 20px auto 0 auto;
 }
